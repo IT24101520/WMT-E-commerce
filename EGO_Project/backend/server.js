@@ -25,7 +25,7 @@ app.use((req, res, next) => {
     }
     next();
 });
-app.options('(.*)', cors({ origin: true, credentials: true }));
+app.options(/.*/, cors({ origin: true, credentials: true }));
 app.use(express.json());
 
 // Routes
@@ -42,8 +42,8 @@ app.use('/uploads', express.static('uploads'));
 
 // Health Check Endpoint for Render
 app.get('/health', (req, res) => {
-    res.status(200).json({ 
-        status: 'OK', 
+    res.status(200).json({
+        status: 'OK',
         message: 'EGO Personalized E-Commerce API is healthy',
         timestamp: new Date().toISOString()
     });
