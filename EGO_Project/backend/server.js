@@ -25,7 +25,7 @@ app.use((req, res, next) => {
     }
     next();
 });
-app.options('*', cors({ origin: true, credentials: true }));
+app.options('(.*)', cors({ origin: true, credentials: true }));
 app.use(express.json());
 
 // Routes
