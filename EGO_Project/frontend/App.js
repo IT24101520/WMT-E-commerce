@@ -16,7 +16,7 @@ import MediaScreen from './src/screens/MediaScreen';
 import CheckoutScreen from './src/screens/CheckoutScreen';
 import AdminScreen from './src/screens/AdminScreen';
 
-const API_URL = 'https://ego-wmt-1.onrender.com';
+const API_URL = 'https://wmt-e-commerce.onrender.com';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('Login');

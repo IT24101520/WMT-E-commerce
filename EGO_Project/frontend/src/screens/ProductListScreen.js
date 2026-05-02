@@ -3,7 +3,7 @@ import { View, Text, FlatList, StyleSheet, ActivityIndicator, TouchableOpacity, 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import api from '../services/api';
 
-const BASE_URL = 'http://10.77.235.29:3000';
+const BASE_URL = 'https://wmt-e-commerce.onrender.com';
 
 const CATEGORIES = ['All', 'Flowers', 'Chocolates', 'Toys', 'Stationary', 'Decor', 'Home', 'Gifts', 'Birthday', 'Kitchen'];
 

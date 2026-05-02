@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, ScrollView, Image, ActivityIndicator } from 'react-native';
 import api from '../services/api';
 
-const BASE_URL = 'http://10.77.235.29:3000';
+const BASE_URL = 'https://wmt-e-commerce.onrender.com';
 
 const CheckoutScreen = ({ navigate, selectedProduct, cart = [], removeFromCart, clearCart }) => {
     const [promoCode, setPromoCode] = useState('');

@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import * as ImagePicker from 'expo-image-picker';
 import api from '../services/api';
 
-const BASE_URL = 'http://10.77.235.29:3000';
+const BASE_URL = 'https://wmt-e-commerce.onrender.com';
 
 const AdminScreen = ({ navigate, route }) => {
     // Determine initial tab from route params (if navigated from HomeScreen portals)

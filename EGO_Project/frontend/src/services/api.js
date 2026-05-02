@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Alert } from 'react-native';
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://ego-wmt-1.onrender.com/api';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://wmt-e-commerce.onrender.com/api';
 
 const api = axios.create({
     baseURL: BASE_URL,
